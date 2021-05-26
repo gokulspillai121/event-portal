@@ -4,7 +4,7 @@ from PIL import ImageTk
 from tkinter import messagebox
 import mysql.connector
 
-mydb=mysql.connector.connect(host="localhost",user="root",passwd="Gokul@121",database="project")
+
 mycursor=mydb.cursor()
 
 
@@ -16,7 +16,7 @@ class SampleApp(tk.Tk):
         self.title("Event portal")
         self.title_font = tkfont.Font(family='Goudy Old Style', size=18, weight="bold", slant="italic")
         self.geometry("600x400+500+250")
-        self.iconbitmap(r'C:/Users/gokul/OneDrive/Desktop/gokul/Python/1.ico')
+        self.iconbitmap(r'1.ico')
 
         
         container = tk.Frame(self,bg="white")
